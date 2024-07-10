@@ -8,3 +8,6 @@ xhofe/alist:latest
 #编写需要的镜像，输入格式为：镜像名:版本信息     编写会自动在action创建一个workflow去下载，等待就行
 mysql:5.7
 emqx/emqx:latest
+docker.io/calico/cni:v3.25.0
+docker.io/calico/node:v3.25.0
+docker.io/calico/kube-controllers:v3.25.0
